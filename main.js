@@ -99,4 +99,8 @@ function gotPoses(results){
         rightWristY = results[0].pose.rightWrist.y;
         console.log("rightWristX = " + rightWristX + ", rightWristY = "+rightWristY);
     }
+    else
+    {
+        console.log("Go Ahead, Scratch that record! The hands are at their default positions btw")
+    }
 }
